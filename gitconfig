@@ -1,9 +1,9 @@
 [user]
-        name = Kyle Suarez
-        email = kyle.suarez@mongodb.com
+        name = Jungsoo Park
+        email = jungsoopark96@gmail.com
 
 [credential]
-        username = ksuarz
+        username = jungsoo
 	helper = cache --timeout=28800
 
 [url "https://github.com/"]
@@ -15,7 +15,7 @@
 
 [core]
         editor = vim
-        excludesfile = /Users/ksuarz/.gitignore_global
+        excludesfile = /Users/jungsoo/.gitignore_global
 
 [alias]
         # Show git aliases
