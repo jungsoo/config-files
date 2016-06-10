@@ -231,6 +231,7 @@ endif
 set background=dark
 colorscheme solarized           " Solarized
 let g:solarized_termtrans=1     " Use a completely-transparent background
+let g:solarized_termcolors=256  " Color fix
 
 " Wild menu settings
 set wildmenu
