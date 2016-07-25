@@ -294,3 +294,6 @@ set textwidth=80                " Stay within 80 characters
 set timeout                     " Time out on both mappings and keycodes
 set timeoutlen=300              " 300ms time-out length
 syntax enable                   " Syntax highlighting
+
+" Even more settings
+set omnifunc=csscomplete#CompleteCSS    " CSS autocomplete
