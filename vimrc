@@ -214,6 +214,7 @@ augroup filetype_indentation
     autocmd Filetype cpp set textwidth=100
     autocmd FileType go set textwidth=0
     autocmd FileType html setl shiftwidth=2 tabstop=2 textwidth=0
+    autocmd FileType javascript setl shiftwidth=2 tabstop=2 textwidth=0
     autocmd FileType xml setl shiftwidth=2 tabstop=2 textwidth=0
 augroup end
 
