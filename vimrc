@@ -211,10 +211,11 @@ augroup end
 " Change indentation and text settings based on filetype
 augroup filetype_indentation
     autocmd FileType c setl shiftwidth=3 tabstop=3
-    autocmd Filetype cpp set textwidth=100
+    autocmd FileType cpp set textwidth=100
+    autocmd FileType css set shiftwidth=2 tabstop=2
     autocmd FileType go set textwidth=0
     autocmd FileType html setl shiftwidth=2 tabstop=2 textwidth=0
-    autocmd FileType javascript setl shiftwidth=2 tabstop=2 textwidth=0
+    autocmd FileType javascript setl shiftwidth=2 tabstop=2 
     autocmd FileType xml setl shiftwidth=2 tabstop=2 textwidth=0
 augroup end
 
