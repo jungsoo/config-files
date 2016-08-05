@@ -11,6 +11,7 @@ set nocompatible                " Vim behavior as opposed to vi
 call plug#begin()
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
+Plug 'ryanss/vim-hackernews'
 call plug#end()
 
 
