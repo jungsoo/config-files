@@ -7,5 +7,4 @@ backups/
 
 # Miscellaneous Vim files and extensions
 .netrwhist
-vim/autoload/
 vim/bundle/
