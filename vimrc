@@ -6,19 +6,12 @@ set nocompatible                " Vim behavior as opposed to vi
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Plugins (vim-plug)
+" Plugins (junegunn/vim-plug)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin()
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
 Plug 'ryanss/vim-hackernews'
+Plug 'tpope/vim-fugitive'
 call plug#end()
-
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Plugin Settings 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:jsx_ext_required = 0      " JSX highlighting in .js files
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
