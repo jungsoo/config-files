@@ -1,7 +1,7 @@
 # zsh_aliases: user-defined aliases for zsh
-#
-# Color support for ls and grep
-alias ls='ls -G --color=auto'
+
+# Better defaults
+alias ls='ls -hG --color=auto'
 alias grep='grep --color=auto'
 
 # Listing directories
