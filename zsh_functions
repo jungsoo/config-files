@@ -48,23 +48,9 @@ goto() {
     elif [ $# -eq 1 ]; then
         case $1 in
             cfg|config)
-                cd "$HOME/programming/config-files" ;;
-            d|docs)
-                cd "$HOME/programming/docs" ;;
-            e|enterprise)
-                cd "$HOME/programming/enterprise-modules" ;;
-            m|mongo)
-                cd "$HOME/programming/mongo" ;;
-            mmap|mmapv1)
-                cd "$HOME/programming/mongo/src/mongo/db/storage/mmap_v1" ;;
-            p|prog|programming)
-                cd "$HOME/programming" ;;
-            src)
-                cd "$HOME/programming/mongo/src/mongo" ;;
-            storage)
-                cd "$HOME/programming/mongo/src/mongo/db/storage" ;;
-            wt|wiredtiger|wiredTiger)
-                cd "$HOME/programming/mongo/src/mongo/db/storage/wiredtiger" ;;
+                cd "$HOME/config-files" ;;
+            p|proj|projects)
+                cd "$HOME/projects" ;;
             *)
                 echo "Undefined label." ;;
         esac
