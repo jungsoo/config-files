@@ -10,7 +10,8 @@ set nocompatible                " Vim behavior as opposed to vi
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin()
 Plug 'ryanss/vim-hackernews'
-Plug 'tpope/vim-fugitive'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 call plug#end()
 
 
