@@ -267,6 +267,7 @@ filetype indent on              " Indent based on detected filetype
 filetype plugin on              " Allow filetype plugins
 set autoread                    " Reload the file if changed from outside
 set backspace=indent,eol,start  " Backspace works intuitively
+set clipboard=unnamed           " Combining clipboards
 set confirm                     " Confirm quit if dirty
 set cursorline                  " Highlight current line
 set hidden                      " Hide buffers after they're abandoned
